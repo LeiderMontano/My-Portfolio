@@ -1,0 +1,32 @@
+:root {
+    /*palette-black-a-dukeblue*/
+ --black: #02010aff;
+ --oxford-blue: #04052eff;
+ --federal-blue: #140152ff;
+ --navy-blue: #22007cff;
+ --duke-blue: #0d00a4ff;
+ 
+ /*palette-oxfordblue-amaranrhpurple*/
+ --oxford-blue: #04052eff;
+ --amaranth-purple: #af1b3fff;
+ --federal-blue: #140152ff;
+ 
+ /*palette-ultraviolet-a-nonphotoblue*/
+ --ultra-violet: #726da8ff;
+ --oxford-blue: #04052eff;
+ --glaucous: #7d8cc4ff;
+ --federal-blue: #140152ff;
+ --non-photo-blue: #a0d2dbff;
+ 
+ /*Fonts Styles*/
+ --Open-Sans: 'Open Sans', sans-serif;
+ --Great-Vibes: 'Great Vibes', cursive; /*Letra Cursiva*/
+ --Press-Start-2P: 'Press Start 2P', cursive; /*Letra Arcade*/
+ }
+
+ body{
+    font-family: var(--Open-Sans);
+}
+ a{
+    text-decoration: none;
+ }
