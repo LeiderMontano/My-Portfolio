@@ -1,0 +1,19 @@
+.menu__header{
+    display: flex;
+    text-align: end;
+}
+
+.menu__header__img{
+    ;
+    
+}
+
+.menu__title{
+    display: end;
+    text-align: top;
+}
+.menu__nav__item{
+    padding-left: 2rem;
+    display: inline-block;
+
+}
