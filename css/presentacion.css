@@ -1,0 +1,21 @@
+.presentacion{
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    
+}
+
+.presentacion__texto{
+    font-size: 34px;
+}
+
+.presentacion__foto{
+    width: 8%;
+
+}
+
+.presentacion__links{
+    display: flex;
+
+    
+}
