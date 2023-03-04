@@ -1,19 +1,22 @@
 .menu__header{
     display: flex;
-    text-align: end;
+    padding: 0 5rem;
+    justify-content: space-between;
 }
 
 .menu__header__img{
-    ;
+    display: block;
+    margin-right: 0px;
     
 }
 
-.menu__title{
-    display: end;
-    text-align: top;
+.menu__nav{
+    position: relative;
+    
+
 }
 .menu__nav__item{
-    padding-left: 2rem;
+    padding: 1rem 2rem 1rem 0rem;
     display: inline-block;
-
+    
 }
