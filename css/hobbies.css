@@ -1,0 +1,15 @@
+.hobbies__lista__container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.hobbies__lista{
+    background-color: white;
+    padding: 1rem;
+    width: 150px;
+    height: 150px;
+}
+
+.hobbies__lista__items{
+    padding: 5px;
+}

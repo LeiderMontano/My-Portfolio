@@ -1,0 +1,15 @@
+.skills__lista__container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.skills__lista{
+    background-color: white;
+    padding: 1rem;
+    width: 150px;
+    height: 150px;
+}
+
+.skills__lista__items{
+    padding: 5px;
+}

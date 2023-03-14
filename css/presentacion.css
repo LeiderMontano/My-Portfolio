@@ -7,8 +7,6 @@
 .presentacion__texto{
     display: flex;
     justify-content: space-around;
-    font-size: 2rem;
-    font-weight: bold;
 }
 
 .presentacion__links{
