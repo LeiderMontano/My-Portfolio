@@ -1,22 +1,26 @@
-.presentacion{
+.presentacion__container{
     display: flex;
     padding: 1rem;
-    justify-content: space-around;
     
 }
 
 .presentacion__texto{
-    font-size: 34px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
     font-weight: bold;
 }
 
 .presentacion__links{
     display: flex;
-    display: inline-block;
-    font-size: 12px;
+    font-size: .8rem;
+}
+
+.presentacion__links__items{
+    margin: .5rem;
 }
 
 .presentacion__foto{
-    display: block;
+    display: flex;
     width: 8%;
 }
