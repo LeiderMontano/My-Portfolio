@@ -1,0 +1,9 @@
+.contacto__container{
+    padding: 2rem;
+    display: flex;
+}
+
+.contacto__formulario{
+    display: flex;
+    flex-direction: column;
+}

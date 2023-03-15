@@ -14,6 +14,10 @@
     <link rel="stylesheet" href="/css/sobremi.css">
     <link rel="stylesheet" href="/css/skills.css">
     <link rel="stylesheet" href="/css/hobbies.css">
+    <link rel="stylesheet" href="/css/formacion-academica.css">
+    <link rel="stylesheet" href="/css/proyectos.css">
+    <link rel="stylesheet" href="/css/contacto.css">
+    <link rel="stylesheet" href="/css/footer.css">
 
     <title>Leider Montaño</title>
 
@@ -42,15 +46,16 @@
 <!--Presentación-->
 
 <section class="presentacion__container">
-    <h2 class="presentacion__texto">Hola, mi nombre es Leider Montaño y soy desarrollador wed <br> Es un placer tenerte aquí...
-    <img class="presentacion__foto" src="/img/foto.jpg" alt="Foto Leider Montaño">
-    <div>
+    <div class="presentacion__links__container">
+    <h2 class="presentacion__texto">Hola, mi nombre es Leider Montaño y soy desarrollador wed <br> Es un placer tenerte aquí...</h2>
+    
         <ul class="presentacion__links">
             <li class="presentacion__links__items"><a href="https://github.com/LeiderMontano">GitHub</a></li>
             <li class="presentacion__links__items"><a href="https://www.linkedin.com/in/leidermontano/">LinkedIn</a></li>
         </ul>
     </div>
-    </h2>
+    <img class="presentacion__foto" src="/img/profile.png" alt="Foto Leider Montaño">
+    
 
 </section>
 <!--Sobre mi-->
@@ -119,45 +124,60 @@
 </section>
 
 <!--Formación-->
+<section class="formacion-academica__container">
+    <h2 class="formacion-academica__titulo">Formación Académica</h2>
+    <div class="formacion-academica__lista__container">
+        <ul class="formacion-academica__lista">
+            <li class="formacion-academica__img"><img src="/img/alura_logo2.png"></li>
+            <li class="formacion-academica__texto">HTML5  & CSS</li>
+            <li class="formacion-academica__texto__año">2023 - Alura</li>
+        </ul>
 
-<h2>Formación Académica</h2>
+        <ul class="formacion-academica__lista">
+            <li class="formacion-academica__img"><img src="/img/alura_logo2.png"></li>
+            <li class="formacion-academica__texto">Programación Front-End</li>
+            <li class="formacion-academica__texto__año">2023 - Alura</li>
+        </ul>
 
-<ul>
-    <li><img src="/img/alura_logo2.png"></li>
-    <li>HTML5  & CSS</li>
-</ul>
-
-<ul>
-    <li><img src="/img/alura_logo2.png"></li>
-    <li>Programación Front-End</li>
-</ul>
-
-<ul>
-    <li><img src="/img/google-activate.png"></li>
-    <li>Ciberseguirdad en Teletrabajo</li>
-</ul>
+        <ul class="formacion-academica__lista">
+            <li class="formacion-academica__img"><img src="/img/google-activate.png"></li>
+            <li class="formacion-academica__texto">Ciberseguirdad en el Teletrabajo</li>
+            <li class="formacion-academica__texto__año"> 2022 - Google Actívate</li>
+        </ul>
+    </div>
+</section>
 
 <!--Proyectos-->
-
-<h2>Proyectos</h2>
+<section class="proyectos__container">
+    <h2 class="proyectos__titulo">Proyectos</h2>
+    <div class="proyectos__img__container">
+        <img class="proyectos__img" src="/img/coming-soon.png" alt="Image Coming Soon">
+    </div>
+</section>
 
 <!--Contacto-->
+<section class="contacto__container">
+    <img src="/img/contact_image.png" alt="Foto ilustrativa de contacto">
 
-<h2>Contacto</h2>
-<h3>¿Quieres contactarme?</h3>
-<h3>Puedes hacerlo atravez de mi <a href="#">LinkedIn</a> o llenado el siguinete formulario.</h3>
+    <h2 class="contacto__titulo">Contacto</h2>
 
-<form action="">
-    <input type="text">
-    <input type="text">
-    <input type="text">
-</form>
-
+        <div class="contacto__img__texto">
+            <h3 class="contacto__texto">¿Quieres contactarme? <br> Puedes hacerlo atravez de mi <a href="#">LinkedIn</a> o llenado el siguinete formulario.</h3>
+            
+            <div class="contacto__formulario__container">
+                <form class="contacto__formulario" action="">
+                    <input class="contacto__formulario__items" type="text">
+                    <input class="contacto__formulario__items" type="text">
+                    <input class="contacto__formulario__items" type="text">
+                </form>
+            </div>
+        </div>
+    
+</section>
 <!--Footer-->
-
-<p>Desarrollado por Leider Montaño</p>
-<p>2023</p>
-
+<section class="footer__container">
+    <p class="footer__texto">by Leider Montaño - 2023</p>
+</section>
 </div>
 
 </body>

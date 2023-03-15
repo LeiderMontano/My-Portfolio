@@ -1,24 +1,19 @@
 .presentacion__container{
     display: flex;
-    padding: 1rem;
-    
-}
-
-.presentacion__texto{
-    display: flex;
     justify-content: space-around;
 }
 
 .presentacion__links{
     display: flex;
-    font-size: .8rem;
+    padding: 1rem;
 }
 
 .presentacion__links__items{
-    margin: .5rem;
+    padding: 1rem;
 }
 
 .presentacion__foto{
-    display: flex;
-    width: 8%;
+    width: 12%;
+    height: 12%;
+    max-width: 12%;
 }

@@ -1,13 +1,7 @@
 .menu__header{
     display: flex;
     padding: 0 5rem;
-    justify-content: space-between;
-}
-
-.menu__header__img{
-    display: block;
-    margin-right: 0px;
-    
+    justify-content: space-around;
 }
 
 .menu__nav{

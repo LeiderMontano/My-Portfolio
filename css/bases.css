@@ -30,7 +30,7 @@
  
 }
  a{
-   text-decoration: none;
+  text-decoration: none;
  }
 
  h2{
@@ -38,4 +38,16 @@
   font-size: 2rem;
   font-weight: bold;
   padding: 2rem;
+ }
+
+ p{
+  font-size: 1.2rem;
+ }
+
+ li{
+  font-size: 1.2rem;
+ }
+
+ h3{
+  font-size: 1.2rem;
  }
