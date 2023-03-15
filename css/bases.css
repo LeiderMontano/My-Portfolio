@@ -24,6 +24,10 @@
  --Press-Start-2P: 'Press Start 2P', cursive; /*Letra Arcade*/
  }
 
+ html{
+   scroll-behavior: smooth;
+ }
+
  body{
    background: var(--non-photo-blue);
    font-family: var(--Open-Sans);
